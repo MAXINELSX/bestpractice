@@ -3,7 +3,7 @@ import sys
 
 folder1=input("Please enter the name of folder: ")
 libsiz=input("Please enter the size of library: ")
-fileoutput=open("meta-data2.txt","w")
+fileoutput=open("meta-data.txt","w")
 fileoutput.write("SampleID"+"\t"+"Name"+'\t'+'Category'+'\t'+'ReadLength'+'\n')
 
 d1=[]  #####whole length
